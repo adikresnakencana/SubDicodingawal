@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/tools"
+    android:padding="8dp"
+    app:ignore="NamespaceTypo">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        card_view:cardBackgroundColor="@color/cardbgkotakwarna"
+        card_view:cardCornerRadius="15dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/modelgmbr_senjata"
+            android:layout_width="130dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher_background" />
+
+
+        <TextView
+            android:id="@+id/modeljudulsenjata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="20dp"
+            android:layout_toEndOf="@+id/modelgmbr_senjata"
+            android:text="@string/jdlsenjata"
+            android:textSize="@dimen/textukurjudul"
+            android:textStyle="bold"
+            android:textColor="@color/tekswarna1"/>
+
+        <TextView
+            android:id="@+id/modeldes_senjata"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/modeljudulsenjata"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_toEndOf="@+id/modelgmbr_senjata"
+            android:maxLines="4"
+            android:text="@string/deskripsisenjata"
+            android:textSize="@dimen/textukurdes"
+            android:paddingRight="10dp"/>
+
+
+    </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

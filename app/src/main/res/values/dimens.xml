@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textukurjudul">20sp</dimen>
+    <dimen name="textukurdes">12sp</dimen>
+    <dimen name="textukurdesdetail">16sp</dimen>
+</resources>
