@@ -15,7 +15,7 @@
         android:layout_height="261dp"
         android:layout_gravity="center"
         android:paddingTop="20dp"
-        android:src="@drawable/ic_image_black_24dp" />
+        android:src="@drawable/ic_launcher_background" />
 
     <TextView
         android:id="@+id/djudulsenjata"
