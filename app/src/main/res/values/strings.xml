@@ -2,4 +2,7 @@
     <string name="app_name">SubDicodingPemula</string>
     <string name="jdlsenjata">Judul senjata</string>
     <string name="deskripsisenjata">dessenjata</string>
+    <string name="aboutprofil">about</string>
+    <string name="adi_kresna_kencana">Adi Kresna Kencana</string>
+    <string name="email_dicoding">adikresnakencana@gmail.com</string>
 </resources>

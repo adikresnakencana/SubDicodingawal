@@ -5,8 +5,12 @@ import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.content.Intent;
 import android.graphics.ColorSpace;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 
 import java.util.ArrayList;
 
@@ -29,6 +33,34 @@ public class MainActivity extends AppCompatActivity {
         //adapter
         myadaptersenjata = new Myadaptersenjata(this,getPlayers());
         mRecyclerView.setAdapter(myadaptersenjata);
+
+
+
+    }
+        ///menu bar action codwe
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
+        int id = item.getItemId();
+        {
+
+        if (id == R.id.tombol_about) {
+            Intent myaboutintent = new Intent(MainActivity.this,
+                    about_profil.class);
+
+            startActivity(myaboutintent);
+            return  true;
+        }
+
+                return super.onOptionsItemSelected(item);
+        }
+    }
+
+    //about
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.about, menu);
+        return true;
     }
 
     //add models to arraylist
