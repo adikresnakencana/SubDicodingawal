@@ -75,8 +75,8 @@ public class MainActivity extends AppCompatActivity {
                 "Scar sendiri awalnya dikembangkan oleh FN Herstal untuk Komando Operasi Khusus Amerika Serikat (SOCOM) sebagai entri ke Kompetisi SCAR," +
                 "kompetisi untuk menemukan senapan servis baru untuk SOCOM.\n" +
                 "Pada 2015, keluarga senapan SCAR beroperasi di lebih dari 20 negara. \n" +
-                "DAMAGE              = 41 \n" +
-                "ZERO RANGE          = 100 - 600 \n" +
+                "DAMAGE             = 41 \n" +
+                "ZERO RANGE        = 100 - 600 \n" +
                 "MAGAZINE SIZE       = 30 \n" +
                 "MODE TEMBAK         = SINGLE, AUTO \n" +
                 "TIPE PELURU         = 5.56 \n" +
@@ -131,6 +131,21 @@ public class MainActivity extends AppCompatActivity {
                 "ATTACHMENTS         = 4");
         o.setGmbrsenjata(R.drawable.senjata_five);
         models.add(o);
+
+
+//        o = new Modelsenjata();
+//        o.setJudulsenjata("QBZ");
+//        o.setDessenjata("TYPE Senjata Assault Rifle\n\n" +
+//                "QBZ (Q?ngwuqi Bùqi?ng–Zìdòng), secara harfiah berarti “Senapan serbu otomatis ringan” diproduksi di China pada tahun 1995 oleh perusahaan bernama Arsenal 266, yang mana merupakan bagian dari Norinco dan Arsenal 296. Senapan ini menggunakan peluru buatan Cina yaitu 5,8 x 42 mm DBP87. \n" +
+//                "QBZ-95 terdiri dari beberapa jenis varian, yaitu varian karabin, standar, dan varian Senjata otomatis regu (Squad automatic weapon).\n" +
+//                "DAMAGE              = 43 \n" +
+//                "ZERO RANGE          = 100 - 600 \n" +
+//                "MAGAZINE SIZE       = 30 \n" +
+//                "MODE TEMBAK         = SINGLE, AUTO \n" +
+//                "TIPE PELURU         = 5.56 \n" +
+//                "ATTACHMENTS         = 4");
+//        o.setGmbrsenjata(R.drawable.qbz);
+//        models.add(o);
 
         o = new Modelsenjata();
         o.setJudulsenjata("G36C");
@@ -187,6 +202,20 @@ public class MainActivity extends AppCompatActivity {
                 "TIPE PELURU         = 9mm \n" +
                 "ATTACHMENTS         = 1");
         o.setGmbrsenjata(R.drawable.vss);
+        models.add(o);
+
+        o = new Modelsenjata();
+        o.setJudulsenjata("Mk47");
+        o.setDessenjata("TYPE Senjata Sniper Rifle\n\n" +
+                "CMMG MK47 Mutant adalah senapan jenis semi otomatis yang didesain menggunakan 7.62mm kaliber.\n" +
+                "Dibuat oleh perusahaan asal Amerika Serikat bernama CMMG Inc pada tahun 2014. Untuk serinya sendiri, produk Mk memiliki berbagai varian yaitu: Mk47 K Pistol, Mk47 K Short Barrel Rifle, Mk47 Mutant AKM, Mk47 Mutant AKM CA, Mk47 Mutant AKM 2 CA, Mk47 Mutant T CA, Mk47 AKS8, Mk47 AKS13.\n" +
+                "DAMAGE              = 49 \n" +
+                "ZERO RANGE          = 100 - 500 \n" +
+                "MAGAZINE SIZE       = 30 \n" +
+                "MODE TEMBAK         = SINGLE, AUTO\n" +
+                "TIPE PELURU         = 7.62 \n" +
+                "ATTACHMENTS         = 4");
+        o.setGmbrsenjata(R.drawable.mutant);
         models.add(o);
 
         o = new Modelsenjata();
